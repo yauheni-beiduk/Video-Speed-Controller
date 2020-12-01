@@ -6,16 +6,18 @@ body {
     background-color: antiquewhite;
     width: auto;
     height: 100vh;
+    background: url(https://wallup.net/wp-content/uploads/2018/09/27/260287-black-minimalistic-yellow-flower-petals-black-background.jpg);
+    background-size: 100% 100%;
 }
 
 .wrapper {
     display: flex;
-    width: 680px;
+    width: 680px;  
 }
 
 video {
-    background: none;
-    outline: none;
+  outline: none;
+  background: none;
 }
 
 .speed {
@@ -31,13 +33,14 @@ video {
     cursor: pointer;
   }
 
-  .speed-bar {
+.speed-bar {
     width: 100%;
-    background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(160,217,89,1) 35%, rgba(0,173,255,1) 100%);    
     text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     height: 10%;
+    cursor: pointer;
   }
