@@ -16,8 +16,5 @@ const video = document.querySelector('.video'),
 }
 
 
-let mousedown = false;
-speed.addEventListener('click', handleMove);
-speed.addEventListener('mousemove', (e) => mousedown && handleMove(e));
-speed.addEventListener('mousedown', () => mousedown = true);
-speed.addEventListener('mouseup', () => mousedown = false);
+
+speed.addEventListener('mousemove', handleMove);
