@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: auto;
+    height: 100vh;
+    background: url(https://klike.net/uploads/posts/2019-06/1561182947_20.jpg);
+    background-size: 100% 100%;
+}
+
+.wrapper {
+    display: flex;
+    width: 680px;  
+}
+
+video {
+  outline: none;
+  background: none;
+}
+
+.speed {
+    background: #efefef;
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    margin-top: 35px;
+    border-radius: 50px;
+    box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+.speed-bar {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(160,217,89,1) 35%, rgba(0,173,255,1) 100%);    
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 10%;
+    cursor: pointer;
+  }
